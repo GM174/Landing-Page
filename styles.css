@@ -2,7 +2,15 @@ body {
     font-family: roboto, Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
+}
+
+.dark,.white,.soft {
     padding: 10px 100px;
+}
+
+.dark{
+    background-color: grey;
+    color: white;
 }
 
 .header {
@@ -20,7 +28,7 @@ body {
 
 .top {
     display: flex;
-    margin-top: 100px;
+    padding: 50px 0px;
     justify-content: space-between;
     gap: 30px;
 }
