@@ -17,3 +17,27 @@ body {
     padding: 0px;
     margin: 0px;
 }
+
+.top {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    gap: 8px;
+    justify-content: center;
+}
+
+.top-img {
+    width: 200px;
+    height: auto;
+}
+
+.top-body {
+    margin: 0px;
+}
