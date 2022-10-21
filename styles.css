@@ -4,7 +4,7 @@ body {
     flex-direction: column;
 }
 
-.dark,.white,.soft {
+.dark,.information,.soft {
     padding: 10px 100px;
 }
 
@@ -48,4 +48,24 @@ body {
 
 .top-body {
     margin: 0px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 10px;
+}
+
+.info {
+    display: flex;
+}
+
+.info-img {
+    width: 50px;
+    height: auto;
+}
+
+.unit,.information-header {
+    text-align: center;
 }
