@@ -4,13 +4,10 @@ body {
     flex-direction: column;
 }
 
-.dark,.information,.soft {
-    padding: 10px 100px;
-}
-
 .dark{
     background-color: grey;
     color: white;
+    padding: 10px 100px;
 }
 
 .header {
@@ -55,6 +52,7 @@ body {
     flex-direction: column;
     align-content: center;
     gap: 10px;
+    padding: 30px 100px;
 }
 
 .info {
@@ -68,4 +66,23 @@ body {
 
 .unit,.information-header {
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 100px;
+    background-color: gray;
+}
+
+.quote-source {
+    align-self: end;
+}
+
+.quote-italic {
+    font-style: italic;
+}
+
+.quote-source {
+    font-weight: 600;
 }
