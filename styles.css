@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     align-content: center;
     gap: 10px;
-    padding: 30px 100px;
+    padding: 30px 140px;
 }
 
 .info {
@@ -71,7 +71,7 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 70px 100px;
+    padding: 70px 140px;
     background-color: gray;
 }
 
@@ -85,4 +85,42 @@ body {
 
 .quote-source {
     font-weight: 600;
+}
+
+.bottom {
+    padding: 70px 100px;
+}
+
+.cta {
+    display: flex;
+    background-color: blue;
+    padding: 30px 60px;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.cta-call {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.cta-header {
+    font-weight: 600;
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+}
+
+.cta-button>button {
+    border: 1px white solid;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
